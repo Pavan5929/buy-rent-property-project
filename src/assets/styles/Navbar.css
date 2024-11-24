@@ -1,0 +1,99 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    /* Set the exact width to 1440px */
+    height: 96px;
+    /* Fixed height */
+    background-color: #f5f5ff;
+    
+    /* Centers the navbar horizontally */
+    padding: 0;
+    /* Remove padding */
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.logo-icon {
+    font-size: 24px;
+   width: 0px;
+    height: 32px;
+    margin-left: 8px;
+    margin-top: 4px;
+        margin-top: -4px;
+  
+}
+
+.logo-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: -10px;
+}
+
+.navbar-links {
+    display: flex;
+    list-style: none;
+    margin-top: 28px;
+    margin-left: 48px;
+    gap: 48px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: rgba(0, 9, 41, 1);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #3a3a3a;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar-buttons {
+    display: flex;
+    gap: 10px;
+    margin-right: 22px;
+    margin-top: 24px;
+}
+
+.login-button {
+    background-color: transparent;
+    color: rgba(0, 9, 41, 1);
+    border: 2px solid rgba(224, 222, 247, 1);
+    padding: 12px 24px;
+}
+
+.signup-button {
+    background-color: #6c63ff;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 12px 24px;
+    margin-right: 2px;
+}

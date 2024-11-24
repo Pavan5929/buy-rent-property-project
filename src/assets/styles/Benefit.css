@@ -1,0 +1,131 @@
+.benefits-left {
+    display: flex;
+    flex-direction: column;
+    width: 416px;
+    margin-left: 160px;
+    gap: 16px;
+    margin-top: 3rem;
+   
+    background-color: rgba(247, 247, 253, 1);
+    /* Maintains spacing between elements */
+}
+
+
+
+.browse-button {
+    padding: 10px 16px;
+    width: 11rem;
+    background-color: rgba(16, 10, 85, 1);
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19.6px;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    border: none;
+    /* Removes any default border */
+    cursor: pointer;
+    /* Adds pointer on hover */
+}
+.benefits-left h2{
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -1%;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    color:rgba(16,10,85,1);
+}
+.benefits-left p{
+    padding-left: 3rem;
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    color:rgba(16,10,85,1)
+}
+.benefits-left button{
+    margin-left: 3rem;
+}
+.benefits-left img {
+    height: 400px;
+    /* Consistent height for the image */
+    object-fit: contain;
+    /* Ensures the image scales properly */
+    margin-top: -177px;
+    /* Adds spacing between the button and the image */
+    align-self: flex-start;
+    margin-left:20%;
+    /* Aligns the image to the start of the column */
+}
+
+
+.benefit{
+  display: flex;
+  gap:3rem;
+}
+
+.benefit .benefits-right{
+        margin-top: 3rem;
+}
+
+
+.benefits-right {
+    display: grid;
+    /* Use grid layout for 2 rows and 2 columns */
+    grid-template-columns: repeat(2, 1fr);
+    /* Two equal columns */
+    grid-gap: 4rem;
+    /* Spacing between grid items */
+    justify-items: center;
+    /* Center align items in each grid cell */
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+.benefit-item {
+    display: flex;
+    flex-direction: column;
+  
+    /* Center align icon and content */
+    gap: 1rem;
+    /* Spacing between icon and content */
+    max-width: 18rem;
+    /* Optional: To limit the width of each item */
+}
+
+.benefit-item .icon img {
+    width: 64px;
+    /* Size of the icon */
+    height: 64px;
+    /* Size of the icon */
+}
+
+.benefit-item .content h3 {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(16, 10, 85, 1);
+    margin: 0;
+    letter-spacing: -1%;
+    margin-bottom: 1rem;
+    
+    /* Center align heading text */
+}
+
+.benefit-item .content p {
+    font-family: Plus Jakarta Sans, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(45, 52, 79, 1);
+    line-height: 25.6px;
+    
+    /* Center align paragraph text */
+    margin: 0;
+}
+
+.best{
+    width: 19rem;
+}
