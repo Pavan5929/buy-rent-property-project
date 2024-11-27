@@ -1,0 +1,87 @@
+.landlord-cta{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+background-color:#f9f9fd;
+}
+
+.no-spam{
+    margin-top: 4rem;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -1%;
+    color:rgba(112,101,240,1);
+}
+
+.landlord-cta h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: -1%;
+    margin-top: 1rem;
+    color:rgba(0,9,41,1);
+}
+
+.landlord-cta .description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    color:rgba(0,9,41,1);
+    opacity: 50%;
+    margin-top: 1rem;
+}
+
+.landlord-cta .cta-form input{
+
+    width: 543px;
+    height: 80px;
+    border-radius: 8px;
+    border:none;
+        margin-left: 10rem;
+}
+
+.landlord-cta .cta-form input::placeholder{
+    padding-left: 1rem;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26.1px;
+    letter-spacing: -0.5%;
+    color:rgba(0,9,41,1);
+    opacity: 50%;
+}
+.cta-form{
+    margin-top: 2rem;
+}
+.cta-form button{
+    background-color: rgba(112,101,240,1);
+    padding-top: 12px;
+    padding-right: 40px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color:rgba(255,255,255,1);
+    position: relative;
+        right: 10rem;
+        border:none;
+}
+
+
+.join-info{
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19.6px;
+    opacity: 50%;
+}
+
+.highlight{
+    font-weight: 300;
+    opacity: 100%;
+}
+

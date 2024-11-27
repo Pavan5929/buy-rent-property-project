@@ -1,0 +1,101 @@
+.slider-controls button{
+       background-color: white;
+       border:none;
+}
+
+.slider-controls{
+    margin: auto 35%;
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        width: 16rem;
+        border-radius: 100px;
+        padding: 10px;
+        padding-left: 2rem;
+        background-color: rgba(255, 255, 255, 1);
+        padding-left: 16rem;
+        padding-right: 17rem;
+        margin-top: 2rem;
+}
+
+.slider-container{
+    background-color: rgba(242,241,251,1);
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.active-line{
+    width: 20px;
+    height: 5px;
+    border-radius: 60px;
+    background-color: rgba(112,59,247,1);
+ 
+}
+
+.notactive{
+    width: 20px;
+        height: 5px;
+        border-radius: 60px;
+        background-color: rgba(236,236,236,1);
+}
+
+.lines{
+    display: flex;
+    align-items: center;
+}
+
+.property-card-image{
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.property-location{
+    display: flex;
+    gap:2rem;
+}
+
+.property-location h2{
+     font-weight: 600;
+     font-size: 30px;
+     line-height: 45px;
+}
+
+.property-location span{
+    border-radius: 8px;
+    padding: 10px;
+    height: 3rem;
+    background-color: rgba(112,101,240,1);
+    color:rgba(255, 255, 255, 1);
+}
+
+.prices{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color:rgba(153,153,153,1);
+}
+
+.value{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color:rgba(30,30,30,1);
+}
+
+.image-lists{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: rgba(236,234,255,1);
+    margin-top: 3rem;
+}
+
+.center{
+    display: flex;
+  
+    margin-top: 3rem;
+    justify-content: center;
+    gap:3rem;
+}

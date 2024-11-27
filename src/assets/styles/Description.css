@@ -1,0 +1,116 @@
+.description-container{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgba(242, 241, 251, 1);
+    padding-top: 3rem;
+}
+
+.description-section{
+    height: 23rem;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: rgba(255,255,255,1);
+}
+
+.description-section h3{
+    padding-top: 2rem;
+    padding-left: 1rem;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: -1%;
+}
+
+.description-section p{
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+   
+    font-size: 16px;
+    line-height: 25.6px;
+    padding-left: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.details {
+    margin-top: 3rem;
+    border-top: 1px solid rgba(38, 38, 38, 1);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.detail-item {
+    padding-top: 1rem;
+    position: relative;
+    /* To position the pseudo-element */
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color:rgba(153,153,153,1);
+}
+
+.detail-item h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color:rgba(0,0,0,1);
+}
+
+.detail-item::after {
+    content: "";
+    position: absolute;
+    right: -10px;
+    /* Adjust spacing between text and line */
+    top: 23px;
+    bottom: 0;
+    width: 1px;
+    /* Line thickness */
+    background-color: rgba(38,38,38,1);
+    /* Line color */
+}
+
+.detail-item:last-child::after {
+    display: none;
+    /* Remove the line after the last item */
+}
+
+.features-section{
+    border-radius: 12px;
+    padding:50px;
+    background-color: rgba(255,255,255,1);
+}
+
+.features-section h3{
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -1%;
+    color:rgba(0,9,41,1);
+}
+
+.features-section ul{
+    margin-top: 2rem;
+    padding-left: 1rem;
+    list-style: none;
+}
+
+.features-list li{
+    padding:18px 24px 18px 24px;
+    border-left: 2px solid rgba(112,59,247,1);
+    background-color: rgba(242, 241, 251, 1);
+    margin-bottom: 1rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    color:rgba(77,84,97,1);
+    font-family: Plus Jakarta Sans;
+}
+
+.features-list li img{
+    padding-right: 1rem;
+    position: relative;
+    top:5px;
+}

@@ -14,14 +14,14 @@ const Navbar = () => {
         <li><a href="#buy">Buy</a></li>
         <li><a href="#sell">Sell</a></li>
         <li className="dropdown">
-          <a href="#manage-property">Manage Property</a>
+          <a href="#manage-property">Manage Property  <span className="dropdown-arrow"></span></a>
           <div className="dropdown-content">
             <a href="#option1">Option 1</a>
             <a href="#option2">Option 2</a>
           </div>
         </li>
         <li className="dropdown">
-          <a href="#resources">Resources</a>
+          <a href="#resources">Resources  <span className="dropdown-arrow"></span></a>
           <div className="dropdown-content">
             <a href="#resource1">Resource 1</a>
             <a href="#resource2">Resource 2</a>

@@ -23,17 +23,17 @@ function HeroSection() {
         </div>
         </div>
 
-        <div className="search-bar">
+        <div className="search-bar-1">
           <div className="search-option">
             <label className="search-label">Location</label>
             <span className="search-value">Barcelona, Spain </span>
           </div>
-          <span className="line"></span>
+          <span className="line-1"></span>
           <div className="search-option">
             <label className="search-label">When</label>
             <span className="search-value">Select Move-in Date</span>
           </div>
-              <span className="line"></span>
+              <span className="line-1"></span>
           <button className="search-button">Browse Properties</button>
          
 

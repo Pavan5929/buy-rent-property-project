@@ -97,3 +97,26 @@
     padding: 12px 24px;
     margin-right: 2px;
 }
+
+
+.dropdown-icon {
+    margin-left: 6px;
+    font-size: 12px;
+    color: rgba(0, 9, 41, 1);
+   
+}
+
+.dropdown-arrow {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-left: 2px solid rgba(0, 9, 41, 1);
+    /* Line color */
+    border-bottom: 2px solid rgba(0, 9, 41, 1);
+    /* Line color */
+    transform: rotate(-45deg);
+    /* Rotate to form a V */
+    margin-left: 6px;
+    position: relative;
+    bottom: 4px;
+}

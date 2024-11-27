@@ -175,3 +175,33 @@ hr{
     top: 58px;
     right: 0;
 }
+
+
+.star{
+    color:rgba(255,177,84,1);
+}
+
+.trustpilot-star{
+  font-size: 23px;
+  color:rgba(0, 182, 122, 1);
+
+}
+
+.trustpilot-star::after{
+        content: "";
+            position: absolute;
+            top: 62%;
+            left: 17%;
+            width: 4.31px;
+            height: 2.7px;
+            background-color: rgba(0, 81, 40, 1);
+            clip-path: polygon(0 0, 100% 0, 0 100%);
+            transform: rotate(176deg);
+            transform-origin: left;
+}
+
+.trustpilot-logo {
+    align-items: center;
+    position: relative;
+    bottom: 9px;
+}

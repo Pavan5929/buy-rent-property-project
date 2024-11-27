@@ -1,0 +1,213 @@
+.info-section{
+    width: 100%;
+        background-color: rgba(16, 10, 85, 1);
+        height: 710px;
+        font-family: Plus Jakarta Sans;
+        margin-top: 5rem;
+}
+
+.info{
+  margin-left: 160px;
+  padding-top: 4rem;
+}
+
+.info-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-header h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: -1%;
+    color:rgba(255,255,255,1);
+}
+
+.highlight{
+ color:rgba(112,101,240,1);
+}
+
+.highlight span{
+    color:rgba(255, 255, 255, 1);
+}
+
+.info-header p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    opacity: 70%;
+    color:rgba(255,255,255,1);
+    margin-left: 2rem;
+        padding-right: 8rem;
+}
+
+.info-cards{
+    margin-top: 3rem;
+    gap:34px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.icon {
+    position: relative;
+    right: 45px;
+}
+.card-virtual {
+    display: flex;
+    gap:44px;
+    width: 416px;
+    height: 194px;
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Semi-transparent background */
+    padding-top: 2rem;
+    padding-left: 5rem;
+    border-radius: 8px;
+}
+
+.card-virtual h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: aliceblue;
+    /* Now this will work as expected */
+}
+
+.card-virtual p{
+    padding-top: 1rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    opacity: 70%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.virtual {
+    right: 43px;
+    width: 24rem;
+    position: relative;
+}
+
+.card-light{
+
+    display: flex;
+        gap: 44px;
+        width: 422px;
+        height: 194px;
+
+        /* Semi-transparent background */
+        padding-top: 2rem;
+        padding-left: 5rem;
+        border-radius: 8px;
+        background-color:rgba(255,255,255,1) ;
+}
+
+
+.card-light h4{
+    font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        color:rgba(0,9,41,1);
+        /* Now this will work as expected */
+}
+
+.card-light p {
+    padding-top: 1rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    opacity: 70%;
+    color:rgba(0,9,41,1);
+}
+
+
+.light{
+    right: 43px;
+        width: 24rem;
+        position: relative;
+}
+
+.card-start{
+    display: flex;
+        gap: 44px;
+        width: 401px;
+        height: 194px;
+       background-color: rgba(112,101,240,1);
+        /* Semi-transparent background */
+        padding-top: 2rem;
+        padding-left: 5rem;
+        border-radius: 8px;
+}
+
+.card-start h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: aliceblue;
+    /* Now this will work as expected */
+}
+
+.card-start p {
+    padding-top: 1rem;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    color:rgba(255,255,255,1);
+    
+    opacity: 70%;
+}
+
+.start {
+    right: 43px;
+    width: 24rem;
+    position: relative;
+}
+
+
+.horizontal {
+    position: relative;
+        /* left: -176px; */
+        width: 112%;
+        /* padding-right: 36rem; */
+        left: -176px;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+        background-color: rgba(49,47,75,1);
+}
+
+.info-stats{
+    display: flex;
+    justify-content: space-around;
+}
+.stat{
+    position: relative;
+    text-align: center;
+}
+.stat h3{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: -1%;
+    color:rgba(255,255,255,1);
+}
+
+.stat p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    color:rgba(255,255,255,1);
+}
+
+
+.stat:not(:last-child)::after {
+    content: '';
+        position: absolute;
+        right: 0;
+        top: 41px;
+        transform: translateY(-50%);
+        height: 73%;
+        width: 1px;
+        background-color: white;
+        left: 18rem;
+}
+
