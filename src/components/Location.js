@@ -1,4 +1,5 @@
 import React from "react";
+
 import "../assets/styles/Location.css";
 import { useNavigate } from "react-router-dom"; 
 import key from "../assets/images/key.svg";
@@ -18,8 +19,12 @@ import star from "../assets/images/star.svg";
 function Location() {
   const navigate = useNavigate(); // Initialize the navigation hook
 
+  
+
   const handleCardClick = () => {
+
     navigate("/property"); // Navigate to the Sample page
+    
   };
 
   return (
@@ -70,8 +75,8 @@ function Location() {
           </div>
           <h4>Palm Harbor</h4>
           <p>2699 Green Valley, Highland Lake, FL</p>
-          <hr />
-          <div className="details">
+          <hr className="propertyline" />
+          <div className="details-1">
             <span><img src={Bed} alt="bed"/>3 Beds</span>
             <span><img src={Bath} alt="bath" /> 2 Bathrooms</span>
             <span><img src={SquareMeters} alt="square" /> 5×7 m²</span>
@@ -101,8 +106,8 @@ function Location() {
           </div>
           <h4>Beverly Springfield</h4>
           <p>2821 Lake Sevilla, Palm Harbor, TX</p>
-           <hr />
-          <div className="details">
+             <hr className="propertyline" />
+          <div className="details-1">
             <span><img src={Bed} alt="bed"/>4 Beds</span>
             <span><img src={Bath} alt="bath" />2 Bathrooms</span>
             <span><img src={SquareMeters} alt="square" />6×7.5 m²</span>
@@ -132,8 +137,8 @@ function Location() {
           </div>
           <h4>Faulkner Ave</h4>
           <p>909 Woodland St, Michigan, IN</p>
-           <hr />
-          <div className="details">
+            <hr className="propertyline" />
+          <div className="details-1">
             <span><img src={Bed} alt="bed"/>4 Beds</span>
             <span><img src={Bath} alt="bath" />3 Bathrooms</span>
             <span><img src={SquareMeters} alt="square" />8×10 m²</span>
@@ -163,8 +168,8 @@ function Location() {
           </div>
           <h4>St. Crystal</h4>
           <p>210 US Highway, Highland Lake, FL</p>
-           <hr />
-          <div className="details">
+             <hr className="propertyline" />
+          <div className="details-1">
             <span><img src={Bed} alt="bed"/>4 Beds</span>
             <span><img src={Bath} alt="bath" />2 Bathrooms</span>
             <span><img src={SquareMeters} alt="square" />6×8 m²</span>
@@ -194,8 +199,8 @@ function Location() {
           </div>
           <h4>Cove Red</h4>
           <p>243 Curlew Road, Palm Harbor, TX</p>
-           <hr />
-          <div className="details">
+             <hr className="propertyline" />
+          <div className="details-1">
             <span><img src={Bed} alt="bed"/>2 Beds</span>
             <span><img src={Bath} alt="bath" />1 Bathroom</span>
             <span><img src={SquareMeters} alt="square" />5×7.5 m²</span>
@@ -226,8 +231,8 @@ function Location() {
 
           <h4>Tarpon Bay</h4>
           <p>103 Lake Shores, Michigan, IN</p>
-           <hr />
-          <div className="details">
+             <hr className="propertyline" />
+          <div className="details-1">
             <span><img src={Bed} alt="bed"/>3 Beds</span>
             <span><img src={Bath} alt="bath" />1 Bathroom</span>
             <span><img src={SquareMeters} alt="square" />5×7 m²</span>

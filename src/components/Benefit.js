@@ -26,7 +26,7 @@ function Benefit() {
       {/* Right Section */}
       <div className="benefits-right">
         <div className="benefit-item">
-          <div className="icon">
+          <div className="icon-benefit">
             {/* Replace with an appropriate icon */}
             <img
               src={issurance}
@@ -44,7 +44,7 @@ function Benefit() {
         </div>
 
         <div className="benefit-item">
-          <div className="icon">
+          <div className="icon-benefit">
             <img src={bestprice} alt="Best Price Icon" />
           </div>
           <div className="content">
@@ -57,7 +57,7 @@ function Benefit() {
         </div>
 
         <div className="benefit-item">
-          <div className="icon">
+          <div className="icon-benefit">
             <img src={lowest} alt="Lowest Commission Icon" />
           </div>
           <div className="content">
@@ -70,7 +70,7 @@ function Benefit() {
         </div>
 
         <div className="benefit-item">
-          <div className="icon">
+          <div className="icon-benefit">
             <img src={control} alt="Overall Control Icon" />
           </div>
           <div className="content">

@@ -205,3 +205,11 @@ hr{
     position: relative;
     bottom: 9px;
 }
+
+
+@media (max-width: 376px){
+
+    .image{
+        display: none;
+    }
+}

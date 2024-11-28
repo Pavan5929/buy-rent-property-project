@@ -6,25 +6,25 @@ import area from "../assets/images/Area.svg";
 import sparkicon from "../assets/images/sparkicon.svg"
 function Description() {
   return (
-    <div className="description-container">
+    <div className="description-container-1">
       {/* Description Section */}
       <div className="description-section">
         <h3>Description</h3>
         <p>
           Discover your own piece of paradise with the Seaside Serenity Villa. <br /> With an open floor plan, breathtaking ocean views from every <br /> room, and direct access to a pristine sandy beach, this property is <br /> the epitome of coastal living.
         </p>
-        <div className="details">
-          <div className="detail-item">
+        <div className="details-description">
+          <div className="detail-item-description">
             <img src={Bedroomicons} alt="icon" /> Bedrooms
             <h4>04</h4>
           </div>
-          <div className="detail-item">
+          <div className="detail-item-description">
            <img src={bathroomicons} alt="bathroom-icons" />Bathrooms
             <h4>03</h4>
           </div>
-          <div className="detail-item last">
+          <div className="detail-item-description last">
             <img src={area} alt="area" /> Area
-            <h4>2,500 Square Feet</h4>
+            <h4>2,500 <br /> Square Feet</h4>
           </div>
         </div>
       </div>

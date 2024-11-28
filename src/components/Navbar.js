@@ -1,15 +1,17 @@
 
 import '../assets/styles/Navbar.css'
 import frame from '../assets/images/Frame.svg';
-
+import linesnav from "../assets/images/lines-navbar.svg"
 const Navbar = () => {
   return (
     <nav className="navbar">
+
       <ul className="navbar-links">
-            <span className="logo-icon">
+            <span className="logo-icon-1">
                 <img src={frame} alt="icon" />
             </span>
         <span className="logo-text">Estatery</span>
+      
         <li><a href="#rent">Rent</a></li>
         <li><a href="#buy">Buy</a></li>
         <li><a href="#sell">Sell</a></li>
@@ -31,6 +33,10 @@ const Navbar = () => {
       <div className="navbar-buttons">
         <button className="login-button">Login</button>
         <button className="signup-button">Sign up</button>
+      </div>
+      <div className="navbarlines">
+        <img src={linesnav} alt="line" />
+          <img src={linesnav} alt="line" />
       </div>
     </nav>
   );

@@ -1,10 +1,15 @@
-import React from "react";
+import { useState } from "react";
+import DatePicker from "react-datepicker";
 import icon1 from "../assets/images/Icon.svg"
 import icon2 from "../assets/images/Icon2.png"
 import "../assets/styles/HeroSection.css"
 import home from "../assets/images/home-image.svg"
+import "react-datepicker/dist/react-datepicker.css";
+import calender from "../assets/images/Calendar.svg"
+
 
 function HeroSection() {
+  const [startDate, setStartDate] = useState(null);
   return (
     <div className="hero">
       <div className="headline">
@@ -31,7 +36,23 @@ function HeroSection() {
           <span className="line-1"></span>
           <div className="search-option">
             <label className="search-label">When</label>
+            <div className="move">
             <span className="search-value">Select Move-in Date</span>
+
+            <DatePicker
+        selected={startDate}
+        onChange={(date) => setStartDate(date)}
+        customInput={
+          <img
+          className="calender"
+            src={calender}
+            alt="Calendar Icon"
+            style={{ width: "20px", height: "20px", cursor: "pointer" }}
+          />
+        }
+      />
+      </div>
+              
           </div>
               <span className="line-1"></span>
           <button className="search-button">Browse Properties</button>

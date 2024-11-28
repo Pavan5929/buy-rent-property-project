@@ -9,12 +9,14 @@ import ForTenantsforLandlords from "./components/ForTenantsforLandlords";
 import Spampromise from "./components/Spampromise";
 import Footer from "./components/Footer";
 import Property from "./components/Property";
+import ScrollToTop from "./components/ScrollToTop";
  // Import the target component
 import './App.css';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
       <Navbar />
       <Routes>
         <Route

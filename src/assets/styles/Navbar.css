@@ -4,13 +4,14 @@
     justify-content: space-between;
     align-items: center;
     width:100%;
+    font-family: Plus Jakarta Sans;
     /* Set the exact width to 1440px */
-    height: 96px;
+        height: 79px;
     /* Fixed height */
     background-color: #f5f5ff;
     
     /* Centers the navbar horizontally */
-    padding: 0;
+    padding-bottom: 1rem;
     /* Remove padding */
 }
 
@@ -20,7 +21,7 @@
     margin-right: 20px;
 }
 
-.logo-icon {
+.logo-icon-1 {
     font-size: 24px;
    width: 0px;
     height: 32px;
@@ -119,4 +120,31 @@
     margin-left: 6px;
     position: relative;
     bottom: 4px;
+}
+
+.navbarlines{
+    display: none;
+}
+
+@media (max-width: 376px){
+
+    .navbar{
+        width: 391%;
+    }
+.navbarlines{
+    display: block;
+    display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding-right: 2rem;
+       
+}
+
+.navbar-links li{
+    display: none;
+}
+
+.navbar-buttons button{
+    display: none;
+}
 }

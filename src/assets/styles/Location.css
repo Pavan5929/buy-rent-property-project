@@ -141,7 +141,7 @@ content: "";
     transform-origin: left;
 }
 
-.details span {
+.details-1 span {
     display: block;
     margin: 5px 0;
 }
@@ -220,7 +220,7 @@ content: "";
 
 }
 
-hr{
+.propertyline{
         border: none;
         /* Remove default border */
         height: 1px;
@@ -230,13 +230,13 @@ hr{
     
 }
 
-.details{
+.details-1{
     display: flex;
     justify-content: space-around;
 }
 
 
-.details span img{
+.details-1 span img{
    position: relative;
    top:4px;
 }

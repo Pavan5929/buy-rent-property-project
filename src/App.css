@@ -18,3 +18,13 @@
  z-index: 1;
  
 }
+
+
+@media (max-width: 376px) {
+
+  
+      .heroimage {
+        width: 391%;
+      }
+
+}
