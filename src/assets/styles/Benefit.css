@@ -134,3 +134,31 @@
     position: relative;
     right: 0px;
 }
+
+@media (max-width: 376px){
+
+    .benefit{
+        flex-direction: column;
+        margin:auto 118%;
+        margin-top: -10rem;
+    }
+
+    .benefit .benefits-right{
+        display: flex;
+        flex-direction: column;
+        width: 16rem;
+        margin: auto 17rem;
+    }
+
+    .benefit-item{
+        display: flex;
+        flex-direction: row;
+        gap:2rem;
+    margin-left: -7rem;
+    width: 19rem;
+
+       
+    }
+
+      
+}

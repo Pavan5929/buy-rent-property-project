@@ -99,3 +99,11 @@
     justify-content: center;
     gap:3rem;
 }
+
+.left-arrow,.right-arrow:hover{
+cursor: pointer;
+}
+
+.image-lists:hover{
+    cursor: pointer;
+}

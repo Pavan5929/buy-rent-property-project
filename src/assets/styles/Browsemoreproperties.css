@@ -1,0 +1,52 @@
+.basedonlocation{
+    margin-left: 160px;
+    margin-top: 2rem;
+    margin-right: 3rem;
+}
+
+.location h2{
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: -1%;
+}
+
+.location p{
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    margin-bottom: 2rem;
+}
+
+.form-browse input {
+         padding: 16px 19px 16px 19px;
+         position: relative;
+         width: 89%;
+         background-color: rgba(243,243,243,1);
+         height: 63px;
+         border:none;
+      
+}
+
+.form-browse button {
+    padding: 12px 40px 12px 40px;
+    background-color: rgba(112, 101, 240, 1);
+    border-radius: 8px;
+    position: absolute;
+    right: 12rem;
+    bottom: 27rem;
+    color:rgba(255,255,255,1);
+    font-weight: 700;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    line-height: 24px;
+    border:none;
+    margin-right: 1rem;
+    
+}
+
+.properties{
+    padding-bottom: 4rem;
+}

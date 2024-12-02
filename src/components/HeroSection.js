@@ -6,10 +6,12 @@ import "../assets/styles/HeroSection.css"
 import home from "../assets/images/home-image.svg"
 import "react-datepicker/dist/react-datepicker.css";
 import calender from "../assets/images/Calendar.svg"
+import { useNavigate } from "react-router-dom";
 
 
 function HeroSection() {
   const [startDate, setStartDate] = useState(null);
+   const navigate = useNavigate();
   return (
     <div className="hero">
       <div className="headline">
@@ -29,6 +31,12 @@ function HeroSection() {
         </div>
 
         <div className="search-bar-1">
+          <div className="searchlocation">
+            <div className="searchbar">
+            <input type="text" placeholder="Search Location" />
+           <i class="fas fa-search icon"></i> 
+           </div>
+          </div>
           <div className="search-option">
             <label className="search-label">Location</label>
             <span className="search-value">Barcelona, Spain </span>
@@ -55,7 +63,11 @@ function HeroSection() {
               
           </div>
               <span className="line-1"></span>
-          <button className="search-button">Browse Properties</button>
+         
+           <button 
+        className="search-button"
+        onClick={() => navigate("/browse-more")} // Navigate on click
+      >  Browse Properties</button>
          
 
         </div>

@@ -10,6 +10,7 @@ import Spampromise from "./components/Spampromise";
 import Footer from "./components/Footer";
 import Property from "./components/Property";
 import ScrollToTop from "./components/ScrollToTop";
+import Browsemoreproperties from "./components/Browsemoreproperties";
  // Import the target component
 import './App.css';
 
@@ -37,6 +38,7 @@ function App() {
           }
         />
         <Route path="/property" element={<Property/>} /> {/* Define Sample.js route */}
+        <Route path="/browse-more" element={<Browsemoreproperties />} />
       </Routes>
       <Footer />
     </Router>
