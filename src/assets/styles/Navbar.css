@@ -129,9 +129,11 @@
 
 @media (max-width: 376px){
 
-    .navbar{
-        width: 391%;
-    }
+   
+            .navbar {
+                width: 391%;
+            }
+        
 .navbarlines{
     display: block;
     display: flex;

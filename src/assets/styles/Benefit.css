@@ -137,28 +137,29 @@
 
 @media (max-width: 376px){
 
-    .benefit{
-        flex-direction: column;
-        margin:auto 118%;
-        margin-top: -10rem;
-    }
 
-    .benefit .benefits-right{
-        display: flex;
-        flex-direction: column;
-        width: 16rem;
-        margin: auto 17rem;
-    }
+    .benefit {
+            margin-left: 26rem;
+            display: flex;
+            gap: 3rem;
+            flex-direction: column;
+        }
 
-    .benefit-item{
-        display: flex;
-        flex-direction: row;
-        gap:2rem;
-    margin-left: -7rem;
-    width: 19rem;
+                .benefit .benefits-right {
+                    margin-top: 3rem;
+                    display: flex;
+                    flex-direction: column;
+                }
 
-       
-    }
+                                .benefit-item {
+                                    display: flex;
+                                    flex-direction: row;
+                                    gap:2rem;
+    
+                                }
 
-      
+                                .benefit-item .content p{
+                                        width: 24rem;
+                                }
 }
+

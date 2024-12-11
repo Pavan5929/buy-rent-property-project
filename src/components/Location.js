@@ -59,7 +59,7 @@ function Location() {
       price: "$2,095",
       beds: 4,
       bathrooms: 2,
-      squareMeters: "6×8 m²",
+      squareMeters: "6x8 m²",
       img: home4
     },
     {
@@ -69,7 +69,7 @@ function Location() {
       price: "$2,095",
       beds: 2,
       bathrooms: 1,
-      squareMeters: "5×7.5 m²",
+      squareMeters: "5x7.5 m²",
       img: home5
     },
     {
@@ -79,7 +79,7 @@ function Location() {
       price: "$2,095",
       beds: 3,
       bathrooms: 1,
-      squareMeters: "5×7 m²",
+      squareMeters: "5x7 m²",
       img: home6
     },
   ];

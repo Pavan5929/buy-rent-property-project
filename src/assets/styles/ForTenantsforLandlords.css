@@ -211,3 +211,69 @@
         left: 18rem;
 }
 
+@media (max-width: 376px){
+     
+    .info-section {
+            width: 390%;
+            height: 112rem;
+        }
+
+        .info-header{
+            flex-direction: column;
+            
+            align-items: center;
+            gap:3rem;
+        }
+
+                .info-cards {
+                    margin-top: 3rem;
+                    gap: 34px;
+                    flex-direction: column;
+                     align-items: center;
+                }
+                .card-virtual{
+                    flex-direction: column;
+                    gap:0rem;
+                    height: 16rem;
+                }
+
+                .card-light{
+                    flex-direction: column;
+                        gap: 0rem;
+                        height: 16rem;
+                }
+
+                .card-start{
+                    flex-direction: column;
+                        gap: 0rem;
+                        height: 16rem;
+                }
+
+                .horizontal{
+                    border:1px solid rgba(49,47,75,1);
+                }
+
+                                .info-stats {
+                                    display: flex;
+                                    gap: 5rem;
+                                    flex-direction: column;
+                                    justify-content: space-around;
+                                }
+
+                                                                .stat:not(:last-child)::after {
+                                                                    content: '';
+                                                                    position: absolute;
+                                                                    right: 0px;
+                                                                    top: 90px;
+                                                                    transform: translateY(84%);
+                                                                    height: 73%;
+                                                                    width: 1px;
+                                                                    border: 1px solid rgba(255, 255, 255, 1);
+                                                                    left: 18rem;
+                                                                    transform: rotate(90deg);
+                                                                    rotate: deg(145);
+                                                                    left: 40rem;
+                                                                }
+}
+
+

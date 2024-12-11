@@ -85,3 +85,46 @@ background-color:#f9f9fd;
     opacity: 100%;
 }
 
+@media (max-width: 376px){
+.landlord-cta {
+    display: flex;
+    width: 391%;
+
+}
+
+.cta-form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    margin-right: 9rem;
+
+}
+
+.landlord-cta .cta-form input {
+    width: 543px;
+    height: 80px;
+    align-self: center;
+
+}
+
+.cta-form button {
+    background-color: rgba(112, 101, 240, 1);
+    padding-top: 12px;
+    padding-right: 40px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+    right: 10rem;
+    border: none;
+    align-self: center;
+    width: 34rem;
+    margin-left: 30rem;
+}
+}
+
