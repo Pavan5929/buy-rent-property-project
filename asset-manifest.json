@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/buy-rent-property-project/static/css/main.e433f1b4.css",
-    "main.js": "/buy-rent-property-project/static/js/main.6a9def6e.js",
+    "main.js": "/buy-rent-property-project/static/js/main.d9e50138.js",
     "static/media/home-6.svg": "/buy-rent-property-project/static/media/home-6.e019315e1ef03c13ce947e441e39c9a4.svg",
     "static/media/home-4.svg": "/buy-rent-property-project/static/media/home-4.520f5eff60f561d2769b6e080ddcdc73.svg",
     "static/media/home-5.svg": "/buy-rent-property-project/static/media/home-5.e2baa76992c2a53cd0cc7c4027037140.svg",
@@ -53,6 +53,6 @@
   },
   "entrypoints": [
     "static/css/main.e433f1b4.css",
-    "static/js/main.6a9def6e.js"
+    "static/js/main.d9e50138.js"
   ]
 }
